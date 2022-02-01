@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title id="pageTitle">Rocketcard</title>
+
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Metrophobic&family=Prompt:wght@400&display=swap" rel="stylesheet">
+   
+   <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <main>
+      <div class="container">
+         <section class="card-wrapper">
+   
+            <div class="share">
+               <p>
+                  Compartilhe seu #rocketcard
+               </p>
+            </div>
+   
+            <div id="card-background" class="card rounded">
+               <div class="content rounded">
+                  <header class="card-header">
+                     <div class="logo">
+                        <img src="./assets/logo.svg" alt="logo">
+                     </div>
+                     <p id="userName">Mathues</p>
+                  </header>
+                  <div class="card-main">
+                     <div class="image-profile">
+                        <img src="http://github.com/matheus7gs.png" alt="foto pessoal" id="userImage">
+                     </div>
+                     <div class="info-container rounded">
+                        <ul>
+                           <li>
+                              <img src="./assets/followers.svg" alt="icone">
+                              <p>
+                                 <span id="userFollowers">716</span>
+                                 Seguidores
+                              </p>
+                           </li>
+                           <li>
+                              <img src="./assets/following.svg" alt="icone">
+                              <p>
+                                 <span id="userFollowing">193</span>
+                                 Seguindo
+                              </p>
+                           </li>
+                           <li>
+                              <img src="./assets/repository.svg" alt="icone">
+                              <p>
+                                 <span id="userRepository">38</span>
+                                 Repositórios
+                              </p>
+                           </li>
+                           <li>
+                              <img src="./assets/company.svg" alt="icone">
+                              <p id="userCompany">@Rocketseat</p>
+                           </li>
+                           <li>
+                              <img src="./assets/location.svg" alt="icone">
+                              <p id="userLocation">Bebedouro</p>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <footer class="card-footer">
+                     <img src="./assets/logo.svg" alt="logo">
+                     <p>ROCKETCARD</p>
+                  </footer>
+               </div>
+            </div>
+         </section>
+         <section class="custom-wrapper">
+            <div class="custom">
+               <p>Customizar Rocketcard</p>
+               <button onclick="changeBackground()">Gerar background</button>
+            </div>
+         </section>
+      </div>
+   </main>
+   <script src="main.js"></script>
+</body>
+</html>
